@@ -5,5 +5,6 @@ const interruttoreEl = document.getElementById("interruttore");
 // lampadinaAccesaEl.src = "./img/yellow_lamp.png"
 
 interruttoreEl.addEventListener('click', () => {
+    lampadinaEl.classList.toggle("d-none"),
     lampadinaAccesaEl.classList.toggle("d-none")
 }); 
